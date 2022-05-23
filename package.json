@@ -1,0 +1,32 @@
+{
+  "name": "clone-deep",
+  "version": "1.0.0",
+  "description": "Clone Deep",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanTaranti/clone-deep.git"
+  },
+  "keywords": [
+    "clone-deep",
+    "clone"
+  ],
+  "author": "Alan Taranti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlanTaranti/clone-deep/issues"
+  },
+  "homepage": "https://github.com/AlanTaranti/clone-deep#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1",
+    "prettier": "2.6.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
