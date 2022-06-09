@@ -1,0 +1,6 @@
+.prettier*
+.husky
+.idea
+*.config.js
+.gitignore
+tst/
