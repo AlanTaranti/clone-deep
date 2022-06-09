@@ -1,9 +1,9 @@
 {
   "name": "clone-deep",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Clone Deep",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
